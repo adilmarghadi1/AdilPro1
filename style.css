@@ -1,0 +1,308 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container1 {
+   text-align: center;
+   width: 100%;
+   height:400px;
+   background-color: blue;
+}
+
+.title1 {
+    padding-top:65px;
+    font-family: 'Ephesis', cursive;
+    font-size: 2.6rem;
+    color:white;
+    letter-spacing: 10px;
+}
+
+.title2 {
+    font-family: 'Ephesis', cursive;
+    font-size: 2.2rem;
+    letter-spacing: 3px;
+    margin-top:20px;
+    color: white;
+}
+
+.container1 p {
+    padding:0 300px;
+    font-size: 1em;
+    margin-top:30px;
+    color: white;
+}
+.container1 a {
+    color:#e9c46a;
+    
+}
+@media screen and (max-width: 1199px)
+{
+    .container1 p {
+        padding:0 40px;
+
+    }
+}
+
+.first {
+    padding-top:80px;
+    font-size:1.8em;
+    margin-left:190px;
+    
+}
+ 
+.first1 {
+    /* margin-top:30px; */
+     
+    margin-left: 190px;
+    font-size: 1em;
+
+}
+.first1 a{
+    color:#005f73;
+}
+
+.box1 {
+   display: flex;
+   flex-wrap:wrap;
+   gap: 5px;
+
+
+}
+
+.projects {
+    background-color: #f8edeb;
+
+}
+
+.section1 {
+    margin: 0 120px;
+    flex: 1 1 180px;
+    border-bottom: 2px dotted gray;
+
+
+}
+
+.section1 img {
+    width: 350px;
+    
+}
+@media screen and (max-width:550px)
+{
+    .section1 {
+        margin:0 30px;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .section1 img {
+        width: 200px;
+    }
+}
+@media screen and (max-width:450px)
+{
+    .section1 img {
+        width: 130px;
+    }
+}
+.section1 h3 {
+    color:#1d3557;
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+
+.section1 p {
+    line-height: 25px;
+}
+
+.allwork {
+    display: flex;
+    gap:5px;
+    flex-wrap: wrap;
+}
+.work {
+    flex:1 1 150px;
+    border-bottom:2px dotted #9b9796;
+    padding-right: 100px;
+    margin:10px;
+}
+ 
+.allwork h2{
+    padding-left:200px;
+}
+
+.des {
+    padding-top: 40px;
+    font-family: 'Ephesis', cursive;
+    font-size: 2.8em;
+    color:#005f73;
+    letter-spacing: 5px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+}
+
+.work h3 {
+    
+    padding-left: 200px;
+    color:#264653;
+}
+
+.work p{
+    color: #1d3557;
+    line-height: 25px;
+    padding-left: 200px;
+}
+
+
+.container3 {
+    background-color: #168aad;
+    width:100%;
+}
+
+
+.education 
+{
+    padding-left:250px;
+    padding-top:30px;
+    background-image: url("./images/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.education h1 {
+    color:#03045e;
+    font-size: 3.4em;
+    letter-spacing: 8px;
+    font-family: 'Ephesis', cursive;
+}
+
+.education h3{
+    color:#1d3557;
+    line-height: 40px;
+   
+
+}
+
+@media screen and (max-width:790px)
+{
+    .education {
+        padding-left: 140px;
+    }
+}
+@media screen and (max-width:695px)
+{
+    .education {
+        padding-left: 90px;
+        
+    }
+    .education h1 {
+        font-size:2em;
+    }
+}
+@media screen and (max-width:590px)
+{
+    .education {
+        padding-left: 30px;
+    }
+}
+.education p {
+    line-height: 40px;
+    font-size: 17px;
+    color: #022533;
+
+}
+.last {
+    margin-bottom:50px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 50px;
+    background-color: #ffcbf2;
+}
+
+footer h2 {
+    color:#003049;
+    font-size: 3.2em;
+    letter-spacing: 6px;
+    font-family: 'Ephesis', cursive;
+
+
+}
+ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+ul a{
+    color:#ff9e00;
+
+    padding:0 20px;
+    font-size: 1.3em;
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+}
+
+@media screen and (max-width:660px)
+{
+    ul a {
+        padding:0 5px;
+        
+    }
+}
+
+@media screen and (max-width:740px)
+{
+    .container1 .title1 {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:525px)
+{
+    .container1 {
+        height:600px;
+    }
+}
+
+
+@media screen and (max-width:640px)
+{
+    .des {
+        padding-left: 50px;
+        
+
+    }
+    .allwork h2
+    {
+        padding-left:50px;
+    }
+    .work h3{
+        padding-left:50px;
+    }
+    .work hi{
+        padding-left:50px;
+    }
+    .work p{
+        padding-left:50px;
+    }
+    
+    .allwork h3
+    {
+        padding-right:50px;
+    }
+}
+
+@media screen and (max-width:700px)
+{
+    .first {
+        margin-left: 50px;
+    }
+    .first1 {
+        margin-left:50px;
+    }
+    
+}
